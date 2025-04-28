@@ -1,0 +1,37 @@
+body{
+    background: lightgray;
+    margin:0%;
+}
+div{
+}
+header{
+    background: white;
+    padding:10px;
+}
+header h1{
+  margin:0%;
+  text-align:center;
+}
+div.post{
+    background: white;
+    margin-top:20px;
+}
+div.container{
+  width: 600px;
+  margin:auto;
+}
+div.post img{
+  width:100%;
+}
+div.post .postheader div :first-child{
+  display: inline-block;
+  width:80%;
+}
+div.post .postheader div :last-child{
+  width:20%;
+  color: grey
+}
+div.post h2, div.post p{
+  padding:10px;
+  margin:0%;
+}
